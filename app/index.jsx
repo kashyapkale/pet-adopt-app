@@ -16,7 +16,7 @@ export default function Index() {
       }}
     >
         {user?
-            <Redirect href={'/home'}/>
+            <Redirect href={'/(tabs)/home'}/>
             : <Redirect href={'/login/index'}/>
         }
       <Text style={{
